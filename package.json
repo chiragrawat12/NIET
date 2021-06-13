@@ -1,0 +1,24 @@
+{
+  "name": "NIET",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chiragrawat12/NIET.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chiragrawat12/NIET/issues"
+  },
+  "homepage": "https://github.com/chiragrawat12/NIET#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "request": "^2.88.2"
+  }
+}
