@@ -2,7 +2,11 @@ let fs = require("fs");
 let cheerio = require("cheerio");
 let request = require("request");
 
-let mainFileLocation = "./allBatsmanDetails";
+let mainFileLocation = "./IPL";
+
+if(!fs.existsSync(mainFileLocation)){
+    fs.mkdirSync(mainFileLocation);
+}
 
 function getMatchDetails(Link){
     request(Link , function (error , response , body) {
